@@ -1,0 +1,190 @@
+#work1{
+    /* height: 600px; */
+    margin: auto;
+    width: 90%;
+    
+    background-color: rgb(10,25,47);
+    
+}
+
+#data1{
+    display: flex;
+    /* border: 1px solid green; */
+    gap:1rem;
+    margin-top: 60px;
+}
+
+#data1 img{
+    height: 180px;
+    width: 270px;
+    margin-left: 15px;
+      border-radius: 0.5rem;
+      cursor: pointer;
+}
+
+#detail1{
+    color:#d1d5db;
+    /* border: 1px solid green; */
+    height:150px ;
+    width: 250px;
+}
+
+#detail1 h1{
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+#detail1 p{
+    font-size: 10px;
+    font-style: italic;
+}
+
+#detail1 h5{
+    line-height: 1rem;
+    /* font-style: italic; */
+    font-size: 12px;
+}
+
+#detail1 h4{
+    font-size: 13px;
+}
+
+
+
+#demo1{
+    display: flex;
+    gap:1rem;
+
+}
+
+#demo1 u{
+    cursor: pointer;
+    margin-top: 13px;
+    font-size: small;
+    font-style: italic;
+}
+
+
+#col1{
+    display: flex;
+    gap:2rem
+}
+
+
+
+@media only screen and (min-width:575px) and (max-width:991px) {
+
+    #data1{
+        width: 500px;
+
+    }
+
+
+    #data1 img{
+        height: 120px;
+        width: 160px;
+    }
+
+    #detail1 h1{
+        font-size: 11px;
+
+    }
+
+    #detail1 h5{
+        display: none;
+
+    }
+
+    #detail1 h4{
+        font-size: 10px;
+        
+    }
+
+    #demo1 u{
+        font-size: 9px;
+    }
+
+
+    
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width:293px) and (max-width:575px) {
+   
+    
+#col1{
+    display: grid;
+    /* flex: none; */
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+#data1 img{
+ height: 150px;
+ width: 190px;
+}
+
+
+
+
+
+ #work1{
+        margin-top: 550px;
+        
+    }
+    #detail1 h5{
+        display: none;
+
+    } 
+    #demo1 u{
+        font-size: 9px;
+    }
+
+    
+
+/*
+    #data1{
+        width: 280px;
+
+    }
+
+
+    #data1 img{
+        height: 70px;
+        width: 70px;
+    }
+
+    #detail1 h1{
+        font-size: 8px;
+
+    }
+
+   
+
+    #detail1 h4{
+        font-size: 8px;
+        
+    }
+
+    #demo1 u{
+        font-size: 7px;
+    } */
+
+
+    
+
+
+
+
+}
+
+
+
+
+
