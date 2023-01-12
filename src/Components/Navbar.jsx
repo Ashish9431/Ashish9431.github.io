@@ -35,27 +35,27 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to='home' smooth={true} duration={500}>
+          <Link to='home' id="name" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li>
-          <Link to='about' smooth={true} duration={500}>
+          <Link to='about' id="name" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li>
-          <Link to='skills' smooth={true} duration={500}>
+          <Link to='skills' id="name" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
+          <Link to='work' id="name" smooth={true} duration={500}>
             Work
           </Link>
         </li>
         <li>
-          <Link to='contact' smooth={true} duration={500}>
+          <Link to='contact' id="name" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -135,7 +135,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.linkedin.com/in/ashish-kumar-4097b6246/'
+              href='https://www.linkedin.com/in/ashish-kumar-4097b6246/' target="_blank" 
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -143,7 +143,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://github.com/Ashish9431'
+              href='https://github.com/Ashish9431' target="_blank" 
             >
               Github <FaGithub size={30} />
             </a>
@@ -151,7 +151,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.ashishkumarbhushan0@gmail.com'
+              href='https://www.ashishkumarbhushan0@gmail.com' target="_blank" 
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -159,7 +159,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1ImbE5PM2eLA0NoE-fbgXnztEDrM7x_oK/view?usp=sharing' download={'https://drive.google.com/file/d/1ImbE5PM2eLA0NoE-fbgXnztEDrM7x_oK/view?usp=sharing'}
+              href='https://drive.google.com/file/d/1WIUk-7lkbkStXdxFkNx0tMvmQAGKXOCb/view?usp=share_link' target="_blank"  download={'https://drive.google.com/file/d/1WIUk-7lkbkStXdxFkNx0tMvmQAGKXOCb/view?usp=share_link'}
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

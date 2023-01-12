@@ -8,7 +8,7 @@ function Image() {
     <div id="pp"  style={{  "backgroundColor":"#0a192f",    "width":"100%","height":"280px"}}>
 
               
-               <div   id="imgbox" >
+               <div   style={{"marginLeft":"80px"}}>
                 
                 <img id="imgbox" src={pp} alt="" />
 
