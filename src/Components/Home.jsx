@@ -4,6 +4,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 // import pp from "../assets/pp.png"
 import cv from "../assets/AshishKUMAR.pdf"
 import Typewriter from "typewriter-effect"
+import { Link } from 'react-scroll';
 
 
 
@@ -16,7 +17,7 @@ const Home = () => {
 
 
 
-   <div name='home' id="res1"   className='w-full h-500px bg-[#0a192f]'>
+   <div name='home' id="res1"   className='w-full h-400px bg-[#0a192f]'>
      {/* Container */}
      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
       <br />
@@ -39,13 +40,18 @@ const Home = () => {
 
 
                        <div style={{"color":"white"}}>
-                       <Typewriter 
+                       {/* <Typewriter 
+                       
                             onInit={(typewriter)=> typewriter.typeString(" I’m a full-stack developer specializing in building and designing exceptional digital experiences. Currently, I’m focused onbuilding responsive full-stack web applications with useful Functionality")
                             
                             .pauseFor(5000)
                             .start()
                           }
-                            />
+                            /> */}
+                            <h5  id="Post" style={{"fontStyle":" italic","width":"400px","marginLeft":"240px","color":"","textAlign":"center"}}>
+                            I’m a full-stack developer specializing in building and designing exceptional digital experiences. Currently, I’m focused onbuilding responsive full-stack web applications with useful Functionality
+
+                            </h5>
 
                        </div>
                        <br />
@@ -64,12 +70,16 @@ const Home = () => {
          building responsive full-stack web applications.
        </p> */}
        <div>
-         <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+       <Link to='work' id="name" smooth={true} duration={1400}>
+         <button  style={{"marginLeft":"360px"}}  className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
            View Work
            <span className='group-hover:rotate-90 duration-300'>
              <HiArrowNarrowRight className='ml-3 ' />
            </span>
          </button>
+            {/* Work */}
+          </Link>
+
 
 
          <div id="cv" > 

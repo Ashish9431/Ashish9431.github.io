@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import "./work.css"
 import kim from "../assets/kim.png"
 import orbit from "../assets/orbit.png"
@@ -18,7 +18,9 @@ function Worknew() {
 
     <div id="col1">
         <div id="data1">
-                <img  src={shephora} alt="" />
+              
+                <img id="hover1"  src={shephora} alt="" />
+      
 
                 <div id="detail1">
                     <h1>SEPHORA clone:-</h1>
@@ -52,7 +54,7 @@ function Worknew() {
 
 
         <div id="data1">
-                <img src={keeto} alt="" />
+                <img id="hover1" src={keeto} alt="" />
 
                 <div id="detail1">
                     <h1>Keeto clone:-</h1>
@@ -96,7 +98,7 @@ all popular payment modes to a needy one
 
      <div id="col1">
         <div id="data1">
-                <img src={hotel} alt="" />
+                <img id="hover1" src={hotel} alt="" />
 
                 <div id="detail1">
                     <h1>Orbitz clone:-</h1>
@@ -125,8 +127,8 @@ all popular payment modes to a needy one
 
 
 
-        <div id="data1">
-                <img src={kim} alt="" />
+        <div id="data1"   >
+                <img id="hover1" src={kim} alt="" />
 
                 <div id="detail1">
                     <h1>Kimaye Clone:-</h1>
