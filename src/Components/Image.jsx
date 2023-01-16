@@ -5,7 +5,7 @@ function Image() {
     <>
    
     
-    <div id="pp"  style={{  "backgroundColor":"#0a192f",    "width":"100%","height":"240px"}}>
+    <div id="pp"  style={{  "backgroundColor":"#0a192f",    "width":"100%"}}>
 
               
                <div   style={{"marginLeft":"80px"}}>
